@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scene>
+
+	<gameobject>
+	
+	<transform>
+	  <position x = "1" y = "2" z = "3">
+	  </position>
+	  <scale>
+	  </scale>
+	  <rotation>
+	  </rotation>
+	</transform>
+	<mesh path ="./cube.obj">
+	</mesh>
+	<texture path ="./texture.bmp">
+	</texture>
+	<movement parent ="this">
+	</movement>
+	<QuatCamera parent ="this">
+	</QuatCamera>
+	<shader id ="0">
+	</shader>
+	
+	</gameobject>
+
+
+
+</scene>

@@ -1,0 +1,39 @@
+﻿  XMLParser.cpp
+  window.cpp
+  ModelReader.cpp
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\modelreader.cpp(155): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\modelreader.cpp(167): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\modelreader.cpp(172): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\modelreader.cpp(175): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  main.cpp
+  gl_core_4_3.cpp
+  GameObject.cpp
+  game.cpp
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(128): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(144): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\game.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  texture.cpp
+  Shader.cpp
+  renderer.cpp
+  mesh.cpp
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\components\renderer\mesh.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+c:\users\jamie\documents\engine_0.1\engine_0.1\src\components\renderer\mesh.cpp(71): warning C4267: 'return': conversion from 'size_t' to 'GLuint', possible loss of data
+  QuatCamera.cpp
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  transform.cpp
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  movement.cpp
+  Input.cpp
+  GUIRenderer.cpp
+  Generating Code...
+c:\users\jamie\documents\engine_0.1\engine_0.1\include\gameobject.h(30): warning C4715: 'GameObject::GetComponentByType<Transform>': not all control paths return a value
+c:\users\jamie\documents\engine_0.1\engine_0.1\include\gameobject.h(30): warning C4715: 'GameObject::GetComponentByType<Movement>': not all control paths return a value
+c:\users\jamie\documents\engine_0.1\engine_0.1\include\gameobject.h(30): warning C4715: 'GameObject::GetComponentByType<QuatCamera>': not all control paths return a value
+c:\users\jamie\documents\engine_0.1\engine_0.1\include\gameobject.h(30): warning C4715: 'GameObject::GetComponentByType<Transform>': not all control paths return a value
+  LINK : C:\Users\Jamie\Documents\Engine_0.1\x64\Debug\Engine_0.1.exe not found or not built by the last incremental link; performing full link
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Engine_0.1.vcxproj -> C:\Users\Jamie\Documents\Engine_0.1\x64\Debug\Engine_0.1.exe
+  Engine_0.1.vcxproj -> C:\Users\Jamie\Documents\Engine_0.1\x64\Debug\Engine_0.1.pdb (Partial PDB)
